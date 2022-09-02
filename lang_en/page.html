@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="Description">
+		<meta name="Keywords" content="Keywords,Keywords"/>
+
+		<!-- Title -->
+		<title> site name here - description here </title>
+
+		<!-- Favicon -->
+		<link rel="icon" href="../assets/img/brand/favicon.png" type="image/x-icon"/>
+
+		<!-- Favicon -->
+		<link rel="icon" href="../assets/img/brand/favicon.png" type="image/x-icon"/>
+
+		<!-- Icons css -->
+		<link href="../assets/css/icons.css" rel="stylesheet">
+
+		<!--  Custom Scroll bar-->
+		<link href="../assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+
+		<!--  Sidebar css -->
+		<link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+		<!--- Internal Morris css-->
+		<link href="../assets/plugins/morris.js/morris.css" rel="stylesheet">
+
+		<!--- Style css --->
+		<link href="../assets/css/style.css" rel="stylesheet">
+
+		<!--- Dark-mode css --->
+		<link href="../assets/css/style-dark.css" rel="stylesheet">
+
+		<!---Skinmodes css-->
+		<link href="../assets/css/skin-modes.css" rel="stylesheet" />
+
+		<!--- custom css-->
+		<link href="../assets/css-rtl/custom.css" rel="stylesheet">
+		<link href="../style_color.css" rel="stylesheet">
+
+		<!--fonts css-->
+		<link href='http://fonts.googleapis.com/earlyaccess/notokufiarabic.css' rel='stylesheet' type='text/css'/>
+		<link href=' http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'/>
+		
+		<!--font-awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--LTR-->
+		<link href="../assets/css-rtl/LTR.css" rel="stylesheet">
+	</head>
+
+	<body class="main-body bg-white">
+
+		<!-- Loader -->
+		<div id="global-loader" class="bg-dark-4 op-9">
+			<div class="loader-img">
+				<img src="../assets/img/loader.svg" class="m-2" alt="Loader">
+				<h5 class="card-title tx-18 text-white">Loading</h5>
+			</div>
+		</div>
+		<!-- /Loader -->
+
+		<!-- Page -->
+		<div class="page" >
+			<!--main-top-bar-->
+			<div class="main-header nav nav-item hor-header top-header bd-0 bg-dark-4 text-white" style="max-height: 40px !important; border: none !important;">
+				<div class="container">
+					<div class="main-header-left "></div>
+					<div class="main-header-right">
+						<div class="nav nav-item  navbar-nav-right ml-auto bg-light-2 p-1 mr-2 ml-2" id="bs-example-navbar-collapse-1">
+							<form class="navbar-form d-flex " role="search" >
+								<div class="input-group"  style="height: 40px !important;" >
+									<input type="text"  class="form-control" placeholder="...Search" style="height: 40px !important;">
+									<span class="input-group-btn m-0" style="height: 40px !important; top: unset;">
+										<button type="reset" class="btn btn-default">
+											<i class="fas fa-times"></i>
+										</button>
+										<button type="submit" class="btn btn-default nav-link resp-btn ">
+											<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+						<div class="nav nav-item  navbar-nav-right ml-auto ">
+							<a href="#" class="d-flex  nav-item nav-link pl-0 bg-light-2 p-1 mr-2 ml-2 " >
+								<span class="avatar country-Flag mr-0 align-self-center bg-transparent"><img src="../assets/img/flags/saudi_flag.jpg" alt="img"></span>
+								<div class="my-auto">
+									<strong class="mr-2 ml-2 my-auto d-flex text-white">العربية</strong>
+								</div>
+							</a>
+						</div>
+						<div class="nav nav-item  navbar-nav-right ml-auto">
+							<div class="nav-item full-screen fullscreen-button">
+								<a class="new nav-link full-screen-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/main-top-bar-->
+
+			<!-- main-header -->
+			<div class="sticky">
+				<div class="main-header nav nav-item hor-header top-header bg-white"  style="min-height: 130px !important; border: none !important;">
+					<div class="container">
+						<div class="main-header-left ">
+							<!--sidebar-mobile-->
+							<a class="animated-arrow hor-toggle horizontal-navtoggle m-4"><span></span></a><!-- sidebar-toggle-->
+							<nav class="horizontalMenu clearfix d-block d-lg-none">
+								<ul class="horizontalMenu-list pt-2">
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+									<li aria-haspopup="true"><a href="index.html" class="text-left">home</a></li>
+
+								</ul>
+							</nav>
+							<!--/sidebar-mobile-->
+	
+							<!-- brand -->
+							<div class="main-header-center d-flex ml-4">
+								<a href="#"><img src="../assets/img/brand/logo.png" class="img-fluid mr-4"></a>
+							</div>
+						</div>
+						<div class="main-header-right">
+							<!--Nav1-->
+							<nav class="horizontalMenu clearfix d-none d-lg-flex">
+								<ul class="horizontalMenu-list">
+									<li class="float-left"><a href="index.html" class="text-dark-4 href-header tx-16">home</a></li>
+									<li class="float-left"><a class="text-light-3">/</a></li>
+									<li class="float-left"><a href="index.html" class="text-dark-4 href-header tx-16">home</a></li>
+									<li class="float-left"><a class="text-light-3">/</a></li>
+									<li class="float-left"><a href="index.html" class="text-dark-4 href-header tx-16">home</a></li>
+									<li class="float-left"><a class="text-light-3">/</a></li>
+									<li class="float-left"><a href="index.html" class="text-dark-4 href-header tx-16">home</a></li>
+									<li class="float-left"><a class="text-light-3">/</a></li>
+									<li class="float-left"><a href="index.html" class="text-dark-4 href-header tx-16">home</a></li>
+								</ul>
+							</nav>
+							<!--/Nav1-->	
+						</div>
+						<div class="main-header-left">
+							<a href="#"><img src="../assets/img/photos/footer-logo51.jpg" class="img-fluid mr-4"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /main-header -->
+
+			<!--Horizontal-main -->
+			<div class="">
+				<div class="horizontal-main hor-menu clearfix side-header bg-dark-1" style="box-shadow: none !important; border: none !important;">
+					<div class="horizontal-mainwrapper container clearfix">
+						<!--Nav2-->
+						<nav class="horizontalMenu clearfix d-none d-lg-flex">
+							<ul class="horizontalMenu-list">
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+								<li class="float-left"><a class="text-light-1">|</a></li>
+								<li class="float-left"><a href="index.html" class="text-white tx-18">home</a></li>
+							</ul>
+						</nav>
+						<!--/Nav2-->
+					</div>
+				</div>
+			</div>
+			<!--Horizontal-main -->
+
+			<!-- main-content opened -->
+			<div class="main-content horizontal-content">
+				<!-- container opened -->
+				<div class="container">
+
+					<!-- breadcrumb -->
+					<div class="breadcrumb-header bd-b bd-2 bd-light-2 pb-3 justify-content-between">
+						<div class="my-auto">
+							<div class="d-flex mb-3">
+								<h4 class="content-title tx-16 mb-0 my-auto"><a href="#" class="text-dark-3"> <i class="las la-home tx-20"></i> home</a></h4><span class="text-muted mt-1 tx-16 mr-2 mb-0"><i class="las la-caret-left tx-20"></i> <a href="#" class="text-dark-3">category</a></span>
+							</div>
+							<div class="d-flex mr-4">
+								<h4 class="content-title text-dark-1"><i class="las la-caret-left tx-26 text-dark-1"></i>Page title</h4>
+							</div>
+						</div>
+						<div class="d-flex my-xl-auto right-content">
+							<div class="pr-1 mb-3 align-self-center mb-xl-0">
+								<h4 class="content-title tx-14 m-2">Share</h4>
+							</div>
+							<div class="pr-1 mb-3 mb-xl-0">
+								<button type="button" class="btn btn-primary btn-icon ml-2"><i class="lab la-facebook-f"></i></button>
+							</div>
+							<div class="pr-1 mb-3 mb-xl-0">
+								<button type="button" class="btn btn-info btn-icon ml-2"><i class="lab la-twitter"></i></button>
+							</div>
+							<div class="pr-1 mb-3 mb-xl-0">
+								<button type="button" class="btn btn-dark btn-icon ml-2"><i class="las la-print"></i></button>
+							</div>
+							<div class="pr-1 mb-3 mb-xl-0">
+								<button type="button" class="btn btn-warning  btn-icon ml-2"><i class="las la-envelope-open-text"></i></button>
+							</div>
+						</div>
+					</div>
+					<!-- breadcrumb -->
+
+					<!-- row -->
+					<div class="row justify-content-center p-3">
+						<div class="col-12 col-md-8">
+							<div class="card border-0 shadow-none">
+								<img class="card-img-top" src="assets/img/photos/compare1.jpg" alt="">
+								<div class="card-body">
+									<p class="card-text tx-16 lh-9" style="text-align: justify;">
+										هذه صفحة فارغة ، ضع المحتوى هنا
+									</p>
+								</div>
+								<img class="card-img-bottom" src="" alt="">
+							</div>
+						</div>
+						<div class="col-10 col-md-3">
+							<nav class="nav main-nav-column text-center">
+								<a class="nav-link text-dark-4 href-header " href="#">رابط جديد</a>
+								<a class="nav-link text-dark-4 href-header " href="#">رابط جديد</a>
+								<a class="nav-link text-dark-4 href-header " href="#">رابط جديد</a>
+								<a class="nav-link text-dark-4 href-header " href="#">رابط جديد</a>
+							</nav>						
+						</div>
+						<div class="col-12">
+							<div class="card custom-card shadow-none bd-0">
+								<div class="card-body">
+									<div>
+										<h6 class="card-title text-center mb-2 text-dark-2 tx-16">تقيم المحتوى</h6>
+									</div>
+									<div class="rating-stars block" id="rating">
+										<div class="rating-stars-container">
+											<div class="rating-star">
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="rating-star">
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="rating-star">
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="rating-star">
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="rating-star">
+												<i class="fa fa-star"></i>
+											</div>
+										</div>
+										<input type="number" readonly="readonly" class="rating-value" name="rating-stars-value" id="rating-stars-value" value="1">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- row closed -->
+				</div>
+				<!-- Container closed -->
+            </div>
+
+			<!-- Footer1 -->
+			<div class="main-footer bg-dark-1">
+				<div class="container pd-t-0-f ht-100p">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 col-lg-8">
+							<nav class="nav flex-row justify-content-start">
+								<a class="nav-link tx-14 text-white href-footer-1 pr-1 pl-1" href="#">Useful Links</a>
+								<a class="nav-link tx-14 text-white pr-1 pl-1">|</a>
+								<a class="nav-link tx-14 text-white href-footer-1 pr-1 pl-1" href="#">Faqs</a>
+								<a class="nav-link tx-14 text-white pr-1 pl-1">|</a>
+								<a class="nav-link tx-14 text-white href-footer-1 pr-1 pl-1" href="#">Staff mail</a>
+							</nav>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<nav class="nav flex-row justify-content-end">
+								<a class="nav-link tx-16 text-white">Social media</a>
+								<a class="nav-link tx-20 text-white href-footer-2 p-1" href="#"><i class="lab la-facebook-f"></i></a>
+								<a class="nav-link tx-20 text-white href-footer-2 p-1" href="#"><i class="lab la-twitter"></i></a>
+								<a class="nav-link tx-20 text-white href-footer-2 p-1" href="#"><i class="las la-rss"></i></a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer1 -->
+			
+			<!-- Footer2 -->
+			<div class="main-footer bg-white" style="min-height: 120px !important;">
+				<div class="container pd-t-0-f ht-100p">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 col-lg-4 pt-4 pb-4">
+							<nav class="nav main-nav-column">
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#"><i class="las la-square-full text-light-2 m-0 p-0" style="font-size: 10px !important;"></i>contact information</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#">tel: +0676576896754</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#">fax: +765765865765</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#">Location: text here</a>
+								<a style="border-top: solid 1px #bc9962 !important; border-bottom: solid 1px #bc9962 !important;" class="nav-link tx-14 text-dark-4 href-header pr-2 mt-2" href="#">Read more  <i class="las la-long-arrow-alt-right text-light-2"></i></a>
+							</nav>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<nav class="nav main-nav-column">
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#"><i class="las la-square-full text-light-2 m-0 p-0" style="font-size: 10px !important;"></i>Supports Chrome, Firefox, Safari</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#"><i class="las la-square-full text-light-2 m-0 p-0" style="font-size: 10px !important;"></i>Best browsing with a 768 x 1366 screen</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#"><i class="las la-square-full text-light-2 m-0 p-0" style="font-size: 10px !important;"></i>Number of visitors: 1275514</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#"><i class="las la-square-full text-light-2 m-0 p-0" style="font-size: 10px !important;"></i>Last Updated: 06/30/2022</a>
+								<a class="nav-link tx-14 text-dark-4 href-header p-1" style="border: 0px !important;" href="#"><i class="las la-square-full text-light-2 m-0 p-0" style="font-size: 10px !important;"></i>support email: info@email.com</a>
+
+							</nav>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="nav flex-row justify-content-center mb-2">
+								<div class="col-6">
+									<a href="#"><img src="../assets/img/photos/footer-logo51.jpg" class="img-fluid box-shadow-h m-2"></a>
+								</div>
+								<div class="col-6">
+									<a href="#"><img src="../assets/img/photos/footerbanne6.jpg" class="img-fluid box-shadow-h m-2"></a>
+								</div>
+								<div class="col-6">
+									<a href="#"><img src="../assets/img/photos/footerbanner1-0.jpg" class="img-fluid box-shadow-h m-2"></a>
+								</div>
+								<div class="col-6">
+									<a href="#"><img src="../assets/img/photos/footerbanner2-0.jpg" class="img-fluid box-shadow-h m-2"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer2 -->
+			
+			<!-- Footer3 -->
+			<div class="main-footer bg-dark-3" style="min-height: 120px !important;">
+				<div class="container pd-t-0-f ht-100p">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-8">
+							<nav class="nav flex-row justify-content-start">
+								<a class="nav-link tx-14 text-white href-header p-1" href="#">Copyrights</a>
+								<a class="nav-link tx-14 text-white p-1">-</a>
+								<a class="nav-link tx-14 text-white href-header p-1" href="#">privacy policy</a>
+								<a class="nav-link tx-14 text-white p-1">-</a>
+								<a class="nav-link tx-14 text-white href-header p-1" href="#">Terms of use</a>
+								<a class="nav-link tx-14 text-white p-1">-</a>
+								<a class="nav-link tx-14 text-white href-header p-1" href="#">Evacuation responsibilaty </a>
+							</nav>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="nav d-block mt-2 justify-content-center">
+								<p class="tx-14 text-white m-0 p-0" style="height: unset !important;">All rights reserved to <a class="text-white href-header" href="#">Site name here</a></p>
+								<p class="tx-14 text-white m-0 p-0" style="height: unset !important;">by: <a class="text-white href-header" href="https://www.nawjh.site">Mohammed ALnawjha</a></p>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="m-0 p-0">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer3 -->
+
+		</div>
+		<!-- End Page -->
+
+		<!-- Back-to-top -->
+		<a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
+
+		<!-- JQuery min js -->
+		<script src="../assets/plugins/jquery/jquery.min.js"></script>
+
+		<!-- Bootstrap Bundle js -->
+		<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Ionicons js -->
+		<script src="../assets/plugins/ionicons/ionicons.js"></script>
+
+		<!-- Moment js -->
+		<script src="../assets/plugins/moment/moment.js"></script>
+
+		<!--Internal Sparkline js -->
+		<script src="../assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+		<!-- Moment js -->
+		<script src="../assets/plugins/raphael/raphael.min.js"></script>
+
+		<!-- Internal Piety js -->
+		<script src="../assets/plugins/peity/jquery.peity.min.js"></script>
+
+		<!--Internal  Flot js-->
+		<script src="../assets/plugins/jquery.flot/jquery.flot.js"></script>
+		<script src="../assets/plugins/jquery.flot/jquery.flot.pie.js"></script>
+		<script src="../assets/plugins/jquery.flot/jquery.flot.resize.js"></script>
+		<script src="../assets/plugins/jquery.flot/jquery.flot.categories.js"></script>
+		<script src="../assets/js/dashboard.sampledata.js"></script>
+		<script src="../assets/js/chart.flot.sampledata.js"></script>
+
+		<!-- Rating js-->
+		<script src="../assets/plugins/rating/jquery.rating-stars.js"></script>
+		<script src="../assets/plugins/rating/jquery.barrating.js"></script>
+
+		<!-- P-scroll js -->
+		<script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="../assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+		<!-- Horizontalmenu js-->
+		<script src="../assets/plugins/sidebar/sidebar.js"></script>
+		<script src="../assets/plugins/sidebar/sidebar-custom.js"></script>
+
+		<!-- Eva-icons js -->
+		<script src="../assets/js/eva-icons.min.js"></script>
+
+		<!--Internal Apexchart js-->
+		<script src="../assets/js/apexcharts.js"></script>
+
+		<!-- Horizontalmenu js-->
+		<script src="../assets/plugins/horizontal-menu/horizontal-menu-2/horizontal-menu.js"></script>
+
+		<!-- Sticky js -->
+		<script src="../assets/js/sticky.js"></script>
+
+		<!-- Internal Map -->
+		<script src="../assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+		<script src="../assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+		<!-- Internal Chart js -->
+		<script src="../assets/plugins/chart.js/Chart.bundle.min.js"></script>
+
+		<!--Internal  index js -->
+		<script src="../assets/js/index.js"></script>
+		<script src="../assets/js/jquery.vmap.sampledata.js"></script>
+
+		<!-- custom js -->
+		<script src="../assets/js/custom.js"></script>
+		<script src="../assets/js/jquery.vmap.sampledata.js"></script>
+
+	</body>
+</html>
+
+
+
+
